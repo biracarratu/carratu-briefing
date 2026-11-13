@@ -1,0 +1,74 @@
+{
+ "_comment": "Roteiros de briefing da Metodologia Carratu. Núcleo comum + campos por tipo. Cada campo: pergunta, por que importa, se é obrigatório, o que torna a resposta específica (needs) e perguntas de aprofundamento (probes). Briefing interview scripts: core + type-specific fields.",
+ "core": [
+  {"block": "negocio", "id": "objetivo_negocio", "required": true, "needs": ["number", "date"],
+   "q": {"pt": "Que resultado de negócio este projeto precisa gerar, e até quando?", "en": "What business result must this project drive, and by when?"},
+   "why": {"pt": "Sem meta de negócio, o projeto vira opinião estética.", "en": "Without a business goal, the project becomes taste."},
+   "probes": {"pt": ["Como vocês vão saber que deu certo?", "Quanto disso é meta deste projeto e quanto de outros?", "O que acontece se nada for feito?"],
+              "en": ["How will you know it worked?", "How much of that goal belongs to this project?", "What happens if nothing is done?"]}},
+  {"block": "negocio", "id": "contexto", "required": true, "needs": [],
+   "q": {"pt": "O que mudou para este projeto existir agora?", "en": "What changed that makes this project necessary now?"},
+   "why": {"pt": "O gatilho revela a dor real e a urgência.", "en": "The trigger reveals the real pain and urgency."},
+   "probes": {"pt": ["Quem pediu isso, e por quê?", "Já tentaram antes? O que aconteceu?"], "en": ["Who asked for this, and why?", "Was it tried before? What happened?"]}},
+  {"block": "publico", "id": "publico", "required": true, "needs": ["specific_audience"],
+   "q": {"pt": "Para quem, exatamente? Cargo, empresa, momento e o que essa pessoa quer resolver.", "en": "For whom, exactly? Role, company, moment and what they want to solve."},
+   "why": {"pt": "Quem fala com todo mundo não convence ninguém.", "en": "Speaking to everyone convinces no one."},
+   "probes": {"pt": ["Pense em um cliente real: quem é?", "Quem decide e quem influencia?", "Quem NÃO é o público?"], "en": ["Think of one real customer: who?", "Who decides, who influences?", "Who is NOT the audience?"]}},
+  {"block": "publico", "id": "objecao", "required": true, "needs": [],
+   "q": {"pt": "O que impede essa pessoa de agir hoje? Qual a objeção mais comum?", "en": "What stops this person from acting today? The most common objection?"},
+   "why": {"pt": "A mensagem existe para vencer uma objeção específica.", "en": "The message exists to beat a specific objection."},
+   "probes": {"pt": ["O que o comercial mais escuta antes de perder?", "Com quem vocês são comparados?"], "en": ["What does sales hear before losing?", "Who are you compared with?"]}},
+  {"block": "mensagem", "id": "mensagem", "required": true, "needs": [],
+   "q": {"pt": "Se o público lembrar de uma única frase, qual deve ser?", "en": "If the audience remembers one sentence, what should it be?"},
+   "why": {"pt": "Uma ideia central evita peças que dizem tudo e nada.", "en": "One core idea prevents pieces that say everything and nothing."},
+   "probes": {"pt": ["Por que alguém acreditaria nisso?", "Um concorrente poderia dizer a mesma frase?"], "en": ["Why would anyone believe it?", "Could a competitor say the same?"]}},
+  {"block": "mensagem", "id": "prova", "required": true, "needs": ["number"],
+   "q": {"pt": "Que provas temos? Números, casos, depoimentos, certificações.", "en": "What proof do we have? Numbers, cases, testimonials, certifications."},
+   "why": {"pt": "Promessa sem prova é anúncio; com prova é argumento.", "en": "A promise without proof is an ad; with proof it is an argument."},
+   "probes": {"pt": ["Qual cliente podemos citar?", "Qual número o cliente comemorou?"], "en": ["Which customer can we name?", "What number did a customer celebrate?"]}},
+  {"block": "entrega", "id": "entregaveis", "required": true, "needs": [],
+   "q": {"pt": "O que precisa ser entregue, em que formatos e canais?", "en": "What must be delivered, in which formats and channels?"},
+   "why": {"pt": "Escopo claro evita retrabalho e discussão de prazo.", "en": "Clear scope avoids rework and deadline fights."},
+   "probes": {"pt": ["O que está fora do escopo?", "Há versão em outro idioma?"], "en": ["What is out of scope?", "Other languages?"]}},
+  {"block": "entrega", "id": "metricas", "required": true, "needs": ["number"],
+   "q": {"pt": "Que métrica vamos acompanhar e qual é a meta?", "en": "Which metric will we track, and what is the target?"},
+   "why": {"pt": "Métrica combinada antes evita discussão depois.", "en": "Agreeing the metric up front prevents arguments later."},
+   "probes": {"pt": ["Onde esse número é medido hoje?", "Qual é o número atual?"], "en": ["Where is it measured today?", "What is today's number?"]}},
+  {"block": "restricoes", "id": "prazo", "required": true, "needs": ["date"],
+   "q": {"pt": "Qual é o prazo final e existe data que não pode mudar?", "en": "What is the deadline, and is any date fixed?"},
+   "why": {"pt": "Prazo define o que é possível com qualidade.", "en": "The deadline defines what is possible with quality."}, "probes": {"pt": ["O que acontece se atrasar uma semana?"], "en": ["What happens if it slips a week?"]}},
+  {"block": "restricoes", "id": "orcamento", "required": true, "needs": ["number"],
+   "q": {"pt": "Qual é o orçamento (produção e mídia, separados)?", "en": "What is the budget (production and media, separately)?"},
+   "why": {"pt": "Orçamento escondido gera proposta errada.", "en": "Hidden budgets produce the wrong proposal."}, "probes": {"pt": ["Há uma faixa aceitável?"], "en": ["Is there an acceptable range?"]}},
+  {"block": "restricoes", "id": "mandatorios", "required": false, "needs": [],
+   "q": {"pt": "O que é obrigatório ou proibido? Marca, jurídico, termos, concorrentes que não podem aparecer.", "en": "What is mandatory or forbidden? Brand, legal, terms, competitors."},
+   "why": {"pt": "Restrição descoberta na aprovação custa o dobro.", "en": "A constraint found at approval costs double."}, "probes": {"pt": ["Há manual de marca?"], "en": ["Is there a brand guide?"]}},
+  {"block": "aprovacao", "id": "aprovacao", "required": true, "needs": [],
+   "q": {"pt": "Quem aprova, em quantas rodadas, e quem tem a palavra final?", "en": "Who approves, in how many rounds, and who has the final word?"},
+   "why": {"pt": "Aprovador oculto é a maior causa de refação.", "en": "Hidden approvers are the top cause of rework."}, "probes": {"pt": ["Quem pode vetar no fim?"], "en": ["Who can veto at the end?"]}}
+ ],
+ "types": {
+  "campanha": {"name": {"pt": "Campanha", "en": "Campaign"}, "fields": [
+   {"block": "entrega", "id": "canais", "required": true, "needs": [], "q": {"pt": "Em que canais e com que verba por canal?", "en": "Which channels, with what budget each?"}, "why": {"pt": "Canal define formato e mensagem.", "en": "Channel defines format and message."}, "probes": {"pt": ["Qual canal trouxe resultado antes?"], "en": ["Which channel worked before?"]}},
+   {"block": "entrega", "id": "oferta", "required": true, "needs": [], "q": {"pt": "Qual é a oferta ou chamada para ação?", "en": "What is the offer or call to action?"}, "why": {"pt": "Sem oferta clara, a campanha gera atenção e não ação.", "en": "Without a clear offer you get attention, not action."}, "probes": {"pt": ["O que a pessoa ganha ao clicar?"], "en": ["What does the person get by clicking?"]}}]},
+  "landing_page": {"name": {"pt": "Landing page", "en": "Landing page"}, "fields": [
+   {"block": "entrega", "id": "conversao", "required": true, "needs": [], "q": {"pt": "Qual é a única ação que a página precisa gerar?", "en": "What single action must the page drive?"}, "why": {"pt": "Página com várias ações converte menos.", "en": "Pages with many actions convert less."}, "probes": {"pt": ["O que acontece depois do formulário?"], "en": ["What happens after the form?"]}},
+   {"block": "entrega", "id": "trafego", "required": true, "needs": [], "q": {"pt": "De onde virá o tráfego e com que expectativa o visitante chega?", "en": "Where will traffic come from, with what expectation?"}, "why": {"pt": "A página continua a conversa do anúncio.", "en": "The page continues the ad's conversation."}, "probes": {"pt": ["Qual anúncio ou e-mail leva até ela?"], "en": ["Which ad or email leads there?"]}}]},
+  "conteudo": {"name": {"pt": "Conteúdo / blogpost", "en": "Content / blog post"}, "fields": [
+   {"block": "mensagem", "id": "pergunta_do_leitor", "required": true, "needs": [], "q": {"pt": "Que pergunta do leitor este conteúdo responde?", "en": "What reader question does this answer?"}, "why": {"pt": "Conteúdo bom responde uma pergunta real (e aparece em busca e IA).", "en": "Good content answers a real question (and ranks in search and AI)."}, "probes": {"pt": ["Qual palavra-chave ou prompt?"], "en": ["Which keyword or prompt?"]}},
+   {"block": "entrega", "id": "proximo_passo", "required": true, "needs": [], "q": {"pt": "Depois de ler, o que o leitor deve fazer?", "en": "After reading, what should the reader do?"}, "why": {"pt": "Conteúdo sem próximo passo não gera pipeline.", "en": "Content without a next step builds no pipeline."}, "probes": {"pt": ["Material rico, demonstração, newsletter?"], "en": ["Lead magnet, demo, newsletter?"]}}]},
+  "evento": {"name": {"pt": "Evento", "en": "Event"}, "fields": [
+   {"block": "entrega", "id": "formato_evento", "required": true, "needs": ["number"], "q": {"pt": "Formato, local, número de participantes e perfil esperado?", "en": "Format, venue, attendee count and expected profile?"}, "why": {"pt": "Público certo vale mais que público grande.", "en": "The right audience beats a large one."}, "probes": {"pt": ["Quantas contas-alvo precisam estar lá?"], "en": ["How many target accounts must attend?"]}},
+   {"block": "entrega", "id": "pos_evento", "required": true, "needs": [], "q": {"pt": "O que acontece com os participantes depois do evento?", "en": "What happens with attendees after the event?"}, "why": {"pt": "O resultado de evento está no follow-up.", "en": "Event results live in the follow-up."}, "probes": {"pt": ["Quem liga, em quantos dias?"], "en": ["Who calls, within how many days?"]}}]},
+  "lancamento": {"name": {"pt": "Lançamento de produto", "en": "Product launch"}, "fields": [
+   {"block": "mensagem", "id": "novidade", "required": true, "needs": [], "q": {"pt": "O que é novo de verdade e para quem isso muda algo?", "en": "What is truly new, and for whom does it change things?"}, "why": {"pt": "Lançamento sem novidade clara vira nota de rodapé.", "en": "A launch without clear news is a footnote."}, "probes": {"pt": ["Que problema antes não tinha solução?"], "en": ["Which problem had no solution before?"]}},
+   {"block": "entrega", "id": "prontidao", "required": true, "needs": ["date"], "q": {"pt": "Vendas, suporte e produto estão prontos? Em que data?", "en": "Are sales, support and product ready? By when?"}, "why": {"pt": "Lançar antes de vender pronto queima a demanda.", "en": "Launching before sales is ready burns demand."}, "probes": {"pt": ["Há preço e material de vendas?"], "en": ["Is there pricing and sales material?"]}}]},
+  "identidade": {"name": {"pt": "Marca / identidade visual", "en": "Brand / visual identity"}, "fields": [
+   {"block": "mensagem", "id": "personalidade", "required": true, "needs": [], "q": {"pt": "Se a marca fosse uma pessoa, como ela falaria e o que nunca faria?", "en": "If the brand were a person, how would it talk and what would it never do?"}, "why": {"pt": "Personalidade orienta escolhas visuais e de texto.", "en": "Personality guides visual and verbal choices."}, "probes": {"pt": ["Que marcas admiram e por quê?", "Que marcas não querem parecer?"], "en": ["Which brands do you admire and why?", "Which must you not resemble?"]}},
+   {"block": "restricoes", "id": "ativos_existentes", "required": true, "needs": [], "q": {"pt": "O que da marca atual precisa ser mantido?", "en": "What from the current brand must be kept?"}, "why": {"pt": "Reconhecimento acumulado é patrimônio.", "en": "Accumulated recognition is an asset."}, "probes": {"pt": ["Os clientes reconhecem o quê hoje?"], "en": ["What do customers recognize today?"]}}]}
+ },
+ "vague_terms": {
+  "pt": ["todos", "todo mundo", "qualquer pessoa", "aumentar vendas", "aumentar as vendas", "moderno", "inovador", "clean", "impactante", "viral", "jovem", "o quanto antes", "asap", "urgente", "melhor do mercado", "awareness", "engajamento", "mais leads", "chamar atenção", "diferente", "disruptivo", "premium", "a definir", "tbd", "não sei", "nao sei"],
+  "en": ["everyone", "anyone", "increase sales", "modern", "innovative", "clean", "impactful", "viral", "young", "asap", "urgent", "best in the market", "awareness", "engagement", "more leads", "stand out", "disruptive", "premium", "tbd", "not sure"]
+ }
+}

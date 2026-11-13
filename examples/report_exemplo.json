@@ -1,0 +1,45 @@
+{
+ "lang": "pt",
+ "title": "Briefing: lançamento do módulo de compliance",
+ "subtitle": "Campanha para hospitais e redes de clínicas antes da nova norma de treinamento",
+ "eyebrow": "CARRATU GROWTH KIT · BRIEFING COM ESCUTA ATIVA",
+ "client_name": "Acme Software (empresa fictícia)",
+ "date": "2026-11-12",
+ "file_prefix": "exemplo-briefing",
+ "score": {"value": 74, "label": "Clareza do briefing", "confidence": 100,
+  "verdict": "Quase pronto. Faltam duas decisões críticas antes de produzir: a meta das métricas e o orçamento."},
+ "kpis": [
+  {"label": "Campos respondidos", "value": "13/14"},
+  {"label": "Específicos", "value": "12/14", "status": "pass"},
+  {"label": "Decisões críticas abertas", "value": "2", "status": "warn"},
+  {"label": "Dias até ir ao ar", "value": "64", "note": "15/01/2027"}
+ ],
+ "executive_summary": "A campanha precisa gerar **40 oportunidades e R$ 600 mil em pipeline até 31/03/2027**, aproveitando a nova norma de treinamento obrigatório do setor de saúde, que entra em vigor em abril.\n\nO público são diretoras e diretores de RH e gerentes de Qualidade de hospitais e redes de clínicas de 200 a 1000 funcionários, que respondem pela auditoria. A ideia central: **provar na auditoria que cada colaborador fez o treinamento certo, sem planilha**, com a prova de uma rede hospitalar que chegou a 98% da equipe certificada em 45 dias.\n\nA maior objeção não é o produto, é o medo de trocar de sistema no meio do ano. A campanha precisa mostrar que a migração é segura e rápida.",
+ "top_priorities": [
+  "Definir a meta das métricas em número (hoje: \"aumentar o engajamento e gerar mais leads\"): sugestão a validar, 40 oportunidades e taxa de conversão do diagnóstico.",
+  "Fechar o orçamento de produção e de mídia, separados (hoje: \"a definir\").",
+  "Incluir o CEO na primeira rodada de aprovação, já que ele pode vetar no fim."
+ ],
+ "biggest_strength": "Objetivo de negócio, público e prova estão específicos e alinhados: meta em pipeline com data, decisor nomeado por cargo e porte, e um caso com número.",
+ "context": {"business": "Software de educação corporativa (exemplo fictício)", "goal": "Pipeline do módulo de compliance antes da norma", "target": "40 oportunidades e R$ 600 mil até 31/03/2027"},
+ "data_sources": ["Entrevista com o diretor de marketing em 3 rodadas (respostas fictícias neste exemplo)"],
+ "sections": [
+  {"title": "Premissas e riscos", "blocks": [
+   {"type": "bullets", "items": [
+    "**Premissa**: a norma entra em vigor em abril de 2027 sem adiamento. Dono: Produto. Confirmar até 30/11.",
+    "**Risco**: com o orçamento indefinido, a verba de LinkedIn Ads pode não sustentar 6 anúncios por 10 semanas.",
+    "**Risco**: o CEO vê a campanha só no fim; um veto tardio comprometeria a data de 15/01.",
+    "**Premissa**: o time de vendas atende o diagnóstico gratuito em até 48 horas."
+   ]}
+  ]}
+ ],
+ "recommendations": [
+  {"priority": "Crítica", "issue": "Fechar a meta das métricas", "how": "Número de oportunidades, taxa de conversão do diagnóstico e custo por oportunidade.", "effort": "Baixo", "impact": "Alto", "owner": "Marketing"},
+  {"priority": "Crítica", "issue": "Aprovar o orçamento de produção e de mídia", "how": "Valores separados; se não houver número, uma faixa aceitável.", "effort": "Baixo", "impact": "Alto", "owner": "Liderança"},
+  {"priority": "Alta", "issue": "Reunião de 20 minutos com o CEO na primeira rodada", "how": "Apresentar este briefing antes de qualquer peça.", "effort": "Baixo", "impact": "Alto", "owner": "Marketing"},
+  {"priority": "Ganho rápido", "issue": "Validar o SLA de 48 horas do diagnóstico com vendas", "effort": "Baixo", "impact": "Médio", "owner": "Vendas"}
+ ],
+ "limitations": ["A régua de clareza mede a forma das respostas (específicas, com número e data), não se estão certas: por isso o \"o que eu entendi\" foi devolvido e precisa ser confirmado."],
+ "methodology": "Roteiro de campanha da Metodologia Carratu (núcleo de 12 campos + 2 de campanha), entrevista em rodadas com devolução do entendimento. Clareza: média ponderada (obrigatórios 3, opcionais 1), −35 por problema; campo crítico aberto limita a nota a 74. Pronto para produzir: nota ≥ 80 e nenhum campo crítico aberto.",
+ "onepager_summary": "Campanha para gerar 40 oportunidades e R$ 600 mil em pipeline até março, com hospitais e clínicas de 200 a 1000 funcionários, antes da nova norma. Briefing quase pronto: faltam a meta das métricas e o orçamento."
+}

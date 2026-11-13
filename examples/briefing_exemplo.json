@@ -1,0 +1,41 @@
+{
+ "type": "campanha",
+ "lang": "pt",
+ "project": "Lançamento do módulo de compliance",
+ "client": "Acme Software (empresa fictícia)",
+ "date": "2026-11-12",
+ "answers": {
+  "objetivo_negocio": "Gerar 40 oportunidades qualificadas do módulo de compliance até 31/03/2027, com R$ 600 mil em pipeline.",
+  "contexto": "A nova norma de treinamento obrigatório do setor de saúde entra em vigor em abril de 2027 e três clientes pediram o módulo nos últimos 60 dias.",
+  "publico": "Diretoras e diretores de RH e gerentes de Qualidade de hospitais e redes de clínicas com 200 a 1000 funcionários, que respondem pela auditoria de treinamento.",
+  "objecao": "Acham que o LMS atual resolve e que trocar no meio do ano é arriscado.",
+  "mensagem": "Prove na auditoria que cada colaborador fez o treinamento certo, sem planilha.",
+  "prova": "Rede hospitalar cliente passou na auditoria com 98% da equipe certificada em 45 dias.",
+  "entregaveis": "Landing page, 3 e-mails, 6 anúncios no LinkedIn, 1 webinar e material para vendas.",
+  "metricas": "Aumentar o engajamento e gerar mais leads.",
+  "prazo": "Campanha no ar em 15/01/2027.",
+  "orcamento": "A definir.",
+  "mandatorios": "Seguir o manual de marca; não citar concorrentes pelo nome.",
+  "aprovacao": "Diretor de marketing aprova; CEO quer ver antes de ir ao ar.",
+  "canais": "LinkedIn Ads e e-mail para a base; webinar com parceiro do setor.",
+  "oferta": "Diagnóstico gratuito de prontidão para a auditoria."
+ },
+ "understood": {
+  "objetivo_negocio": "O sucesso é pipeline: 40 oportunidades e R$ 600 mil até março, antes da norma entrar em vigor.",
+  "contexto": "",
+  "publico": "",
+  "objecao": "A campanha precisa mostrar que migrar é seguro e rápido, não só que o módulo é bom.",
+  "mensagem": "",
+  "prova": "",
+  "entregaveis": "",
+  "metricas": "",
+  "prazo": "",
+  "orcamento": "",
+  "mandatorios": "",
+  "aprovacao": "Há dois aprovadores: o diretor aprova, mas o CEO pode vetar. Vale incluir o CEO na primeira rodada.",
+  "canais": "",
+  "oferta": ""
+ },
+ "confirmed": false,
+ "notes": ""
+}
